@@ -122,21 +122,17 @@ main {
     margin-bottom: 2rem;
 }
 
-.profile-image-placeholder {
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
-    background: var(--warm-brown-200);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    box-shadow: 
-        0 20px 40px var(--shadow-heavy),
-        0 0 0 6px var(--white-overlay),
-        0 0 0 12px rgba(194, 179, 151, 0.2);
-    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+.profile-image {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #d4a373;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto 20px;
 }
+
 
 .profile-image-placeholder:hover {
     transform: scale(1.08);
@@ -615,3 +611,4 @@ main {
     0 15px 30px var(--shadow-medium),
     inset 0 0 0 3px var(--white-overlay);
 }
+
