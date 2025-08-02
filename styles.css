@@ -1,201 +1,598 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ishwar - Personal Portfolio</title>
-    <meta name="description" content="Personal portfolio of Ishwar - IIT Bombay engineering student passionate about technology, cricket, guitar, and innovation.">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+Pro:wght@400;500;600&family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1 class="main-title">Meet Ishwar</h1>
-        </header>
-
-        <main>
-            <!-- Profile Section -->
-            <section class="profile-section">
-                <div class="glass-card">
-                    <div class="profile-content">
-                        <div class="profile-image-container">
-                            <img src="i.jpg" alt="Ishwar Profile Picture" class="profile-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                            <div class="profile-image-placeholder" style="display: none;">
-                                <svg class="camera-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
-                                    <circle cx="12" cy="13" r="4"></circle>
-                                </svg>
-                            </div>
-                        </div>
-                        
-                        <h2 class="name-title">Ishwar</h2>
-                        
-                        <div class="age-badge">
-                            Age: 19 • IIT Bombay • Cricket • Guitar • Gym
-                        </div>
-                        
-                        <div class="intro-container">
-                            <p class="intro-text">
-                                Ishwar is a brilliant engineering student at IIT Bombay, fueled by curiosity and a drive to innovate. Whether strumming soulful melodies on his guitar, hitting sixes on the cricket ground, or pushing limits at the gym, he lives each moment with purpose and passion. With a sharp intellect and a creative heart, Ishwar embodies the perfect balance between technical genius and artistic flair, making him a true modern-day polymath.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Education Section -->
-            <section class="education-section">
-                <h3 class="section-title">Education</h3>
-                <div class="education-grid">
-                    <div class="education-card">
-                        <h5 class="institution">Indian Institute of Technology, Bombay</h5>
-                        <p class="degree">Bachelor of Technology in Computer Science</p>
-                        <p class="year">2024 - 2028</p>
-                        <p class="description">Pursuing excellence in computer science with focus on machine learning and software engineering.</p>
-                    </div>
-                    
-                    <div class="education-card">
-                        <h5 class="institution">ALLEN Kota, Rajasthan</h5>
-                        <p class="degree">Higher Secondary Education (Science)</p>
-                        <p class="year">2022 - 2024</p>
-                        <p class="description">Graduated with distinction in Physics, Chemistry, and Mathematics.</p>
-                    </div>
-                    
-                    <div class="education-card">
-                        <h5 class="institution">STNMS Latur, Maharashtra</h5>
-                        <p class="degree">Secondary School Certificate</p>
-                        <p class="year">2018 - 2022</p>
-                        <p class="description">Completed secondary education with excellent academic performance and leadership activities.</p>
-                    </div>
-                    
-                    <div class="education-card">
-                        <h5 class="institution">Goldcrest High, Latur</h5>
-                        <p class="degree">Primary Education</p>
-                        <p class="year">2011 - 2018</p>
-                        <p class="description">Foundation years with strong academic performance and early development of interests in cricket and music.</p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Background Section -->
-            <section class="background-section">
-                <h3 class="section-title">My Background</h3>
-                <div class="glass-card">
-                    <div class="background-content">
-                        <h4 class="philosophy-title">Personal Philosophy</h4>
-                        <p class="philosophy-text">
-                            Innovation happens at the intersection of technology and creativity. I believe in pushing boundaries, whether it's solving complex algorithms, composing music, or perfecting a cricket shot. Every challenge is an opportunity to grow, and every passion fuels the next innovation.
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Gallery Section -->
-            <section class="gallery-section">
-                <h3 class="section-title">Gallery</h3>
-                <div class="glass-card">
-                    <div class="gallery-grid">
-                        <div class="gallery-slot">
-                            <img src="1.jpg" alt="Gallery Image 1" class="gallery-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                            <div class="slot-content empty" style="display: none;">
-                                <svg class="plus-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M12 5v14M5 12h14"></path>
-                                </svg>
-                                <p>Slot 1</p>
-                            </div>
-                        </div>
-                        <div class="gallery-slot">
-                            <img src="2.jpg" alt="Gallery Image 2" class="gallery-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                            <div class="slot-content empty" style="display: none;">
-                                <svg class="plus-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M12 5v14M5 12h14"></path>
-                                </svg>
-                                <p>Slot 2</p>
-                            </div>
-                        </div>
-                        <div class="gallery-slot">
-                            <img src="3.jpg" alt="Gallery Image 3" class="gallery-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                            <div class="slot-content empty" style="display: none;">
-                                <svg class="plus-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M12 5v14M5 12h14"></path>
-                                </svg>
-                                <p>Slot 3</p>
-                            </div>
-                        </div>
-                        <div class="gallery-slot">
-                            <img src="4.jpg" alt="Gallery Image 4" class="gallery-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                            <div class="slot-content empty" style="display: none;">
-                                <svg class="plus-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M12 5v14M5 12h14"></path>
-                                </svg>
-                                <p>Slot 4</p>
-                            </div>
-                        </div>
-                        <div class="gallery-slot">
-                            <img src="5.jpg" alt="Gallery Image 5" class="gallery-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                            <div class="slot-content empty" style="display: none;">
-                                <svg class="plus-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M12 5v14M5 12h14"></path>
-                                </svg>
-                                <p>Slot 5</p>
-                            </div>
-                        </div>
-                        <div class="gallery-slot">
-                            <img src="6.jpg" alt="Gallery Image 6" class="gallery-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                            <div class="slot-content empty" style="display: none;">
-                                <svg class="plus-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M12 5v14M5 12h14"></path>
-                                </svg>
-                                <p>Slot 6</p>
-                            </div>
-                        </div>
-                        <div class="gallery-slot">
-                            <img src="7.jpg" alt="Gallery Image 7" class="gallery-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                            <div class="slot-content empty" style="display: none;">
-                                <svg class="plus-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M12 5v14M5 12h14"></path>
-                                </svg>
-                                <p>Slot 7</p>
-                            </div>
-                        </div>
-                        <div class="gallery-slot">
-                            <img src="8.jpg" alt="Gallery Image 8" class="gallery-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                            <div class="slot-content empty" style="display: none;">
-                                <svg class="plus-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M12 5v14M5 12h14"></path>
-                                </svg>
-                                <p>Slot 8</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Footer -->
-            <footer class="footer">
-                <div class="footer-card">
-                    <p>Crafted with passion • <span class="highlight">Ishwar</span> • 2024</p>
-                </div>
-            </footer>
-        </main>
-    </div>
-</body>
-</html>
-/* === Profile Image Rounded === */
-.profile-pic {
-  width: 220px;
-  height: 220px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 4px solid var(--warm-brown-200);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  display: block;
-  margin: 0 auto 20px;
+/* CSS Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* CSS Variables for Warm Brown Color Palette */
+:root {
+    --warm-brown-50: hsl(38, 45%, 96%);
+    --warm-brown-100: hsl(35, 30%, 88%);
+    --warm-brown-200: hsl(35, 25%, 75%);
+    --warm-brown-300: hsl(32, 20%, 68%);
+    --warm-brown-400: hsl(30, 18%, 62%);
+    --warm-brown-500: hsl(28, 30%, 45%);
+    --warm-brown-600: hsl(25, 35%, 32%);
+    --warm-brown-700: hsl(22, 40%, 24%);
+    --warm-brown-800: hsl(20, 45%, 18%);
+    
+    --shadow-light: rgba(139, 111, 78, 0.1);
+    --shadow-medium: rgba(139, 111, 78, 0.15);
+    --shadow-heavy: rgba(139, 111, 78, 0.3);
+    --glass-border: rgba(194, 179, 151, 0.3);
+    --white-overlay: rgba(255, 255, 255, 0.8);
+}
+
+/* Body and Global Styles */
+body {
+    font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: linear-gradient(135deg, var(--warm-brown-50) 0%, var(--warm-brown-100) 25%, var(--warm-brown-200) 75%, var(--warm-brown-300) 100%);
+    background-attachment: fixed;
+    color: var(--warm-brown-800);
+    min-height: 100vh;
+    animation: fadeIn 2s ease-in;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        radial-gradient(circle at 20% 80%, var(--shadow-light) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, var(--shadow-medium) 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, rgba(194, 179, 151, 0.08) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 5rem;
+    position: relative;
+    z-index: 1;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.main-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--warm-brown-500) 0%, var(--warm-brown-600) 50%, var(--warm-brown-400) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: -0.5px;
+    text-shadow: 0 4px 8px var(--shadow-light);
+    animation: titleSlideIn 1.5s ease-out;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+/* Glass Card Component */
+.glass-card {
+    background: linear-gradient(145deg, rgba(248, 245, 238, 0.95), rgba(240, 235, 225, 0.9));
+    border-radius: 25px;
+    box-shadow: 
+        0 25px 50px var(--shadow-medium),
+        inset 0 1px 0 var(--white-overlay),
+        inset 0 -1px 0 var(--shadow-light);
+    backdrop-filter: blur(15px);
+    border: 2px solid var(--glass-border);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.glass-card:hover {
+    box-shadow: 
+        0 35px 70px rgba(139, 111, 78, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.9),
+        inset 0 -1px 0 var(--shadow-medium);
+    transform: translateY(-2px);
+}
+
+/* Profile Section */
+.profile-section {
+    animation: fadeInUp 1s ease-out 0.2s both;
+}
+
+.profile-content {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.profile-image-container {
+    margin-bottom: 2rem;
+}
+
+.profile-image-placeholder {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: var(--warm-brown-200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: 
+        0 20px 40px var(--shadow-heavy),
+        0 0 0 6px var(--white-overlay),
+        0 0 0 12px rgba(194, 179, 151, 0.2);
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.profile-image-placeholder:hover {
+    transform: scale(1.08);
+    box-shadow: 
+        0 25px 60px rgba(139, 111, 78, 0.4),
+        0 0 0 6px rgba(255, 255, 255, 0.9),
+        0 0 0 12px rgba(194, 179, 151, 0.3);
+}
+
+.camera-icon {
+    width: 4rem;
+    height: 4rem;
+    color: var(--warm-brown-500);
+}
+
+.name-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--warm-brown-800);
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, var(--warm-brown-500) 0%, var(--warm-brown-600) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: -0.5px;
+    position: relative;
+}
+
+.name-title::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--warm-brown-400), transparent);
+}
+
+.age-badge {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--warm-brown-600);
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    background: linear-gradient(135deg, var(--warm-brown-100), var(--warm-brown-50));
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    display: inline-block;
+    border: 1px solid rgba(194, 179, 151, 0.4);
+    box-shadow: 
+        0 4px 12px var(--shadow-light),
+        inset 0 1px 0 var(--white-overlay);
+}
+
+.intro-container {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.intro-text {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--warm-brown-700);
+    font-weight: 400;
+    text-align: justify;
+    text-justify: inter-word;
+    letter-spacing: 0.3px;
+    word-spacing: 0.1em;
+    hyphens: auto;
+    padding: 1.5rem 0;
+    position: relative;
+}
+
+.intro-text::before {
+    content: '"';
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: rgba(139, 111, 78, 0.3);
+    position: absolute;
+    top: -5px;
+    left: -15px;
+    line-height: 1;
+}
+
+.intro-text::after {
+    content: '"';
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: rgba(139, 111, 78, 0.3);
+    position: absolute;
+    bottom: -25px;
+    right: -10px;
+    line-height: 1;
+}
+
+/* Section Titles */
+.section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 600;
+    background: linear-gradient(135deg, var(--warm-brown-500) 0%, var(--warm-brown-600) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Education Section */
+.education-section {
+    animation: fadeInUp 1s ease-out 0.4s both;
+}
+
+.education-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .education-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.education-card {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    padding: 1.5rem;
+    border: 1px solid rgba(194, 179, 151, 0.2);
+    box-shadow: 0 8px 25px var(--shadow-light);
+    transition: all 0.3s ease;
+}
+
+.education-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 35px var(--shadow-medium);
+}
+
+.institution {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--warm-brown-800);
+    margin-bottom: 0.5rem;
+}
+
+.degree {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--warm-brown-600);
+    margin-bottom: 0.25rem;
+}
+
+.year {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--warm-brown-500);
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.description {
+    font-family: 'Crimson Text', serif;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--warm-brown-700);
+}
+
+/* Background Section */
+.background-section {
+    animation: fadeInUp 1s ease-out 0.6s both;
+}
+
+.background-content {
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, rgba(248, 245, 238, 0.8), rgba(240, 235, 225, 0.8));
+    border-radius: 16px;
+    border: 1px solid rgba(194, 179, 151, 0.3);
+    box-shadow: 0 8px 25px var(--shadow-light);
+}
+
+.philosophy-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--warm-brown-700);
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.philosophy-text {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--warm-brown-700);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Gallery Section */
+.gallery-section {
+    animation: fadeInUp 1s ease-out 0.8s both;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+}
+
+@media (min-width: 768px) {
+    .gallery-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+.gallery-slot {
+    aspect-ratio: 1;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 8px 25px rgba(139, 111, 78, 0.2);
+}
+
+.gallery-slot.empty {
+    background: rgba(194, 179, 151, 0.1);
+    border: 2px dashed rgba(194, 179, 151, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-slot:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 40px var(--shadow-heavy);
+}
+
+.slot-content {
+    text-align: center;
+    color: var(--warm-brown-500);
+}
+
+.plus-icon {
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 0.5rem;
+    opacity: 0.6;
+}
+
+.slot-content p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 2rem 0;
+    animation: fadeInUp 1s ease-out 1s both;
+}
+
+.footer-card {
+    background: linear-gradient(145deg, rgba(248, 245, 238, 0.95), rgba(240, 235, 225, 0.9));
+    border-radius: 16px;
+    padding: 1.5rem 2rem;
+    display: inline-block;
+    box-shadow: 0 8px 25px var(--shadow-light);
+    border: 1px solid var(--glass-border);
+}
+
+.footer-card p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.9rem;
+    color: var(--warm-brown-600);
+}
+
+.highlight {
+    background: linear-gradient(135deg, var(--warm-brown-500), var(--warm-brown-600));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 500;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes titleSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 1.5rem 1rem 3rem;
+    }
+    
+    .main-title {
+        font-size: 2rem;
+    }
+    
+    .profile-image-placeholder {
+        width: 180px;
+        height: 180px;
+    }
+    
+    .camera-icon {
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .name-title {
+        font-size: 1.75rem;
+    }
+    
+    .intro-text {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+    
+    .age-badge {
+        font-size: 0.75rem;
+        padding: 0.4rem 0.8rem;
+    }
+    
+    .profile-content,
+    .background-content {
+        padding: 2rem 1.5rem;
+    }
+    
+    .section-title {
+        font-size: 1.75rem;
+    }
+    
+    .gallery-grid {
+        padding: 1.5rem;
+    }
+    
+    main {
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1rem 0.75rem 2rem;
+    }
+    
+    .main-title {
+        font-size: 1.75rem;
+    }
+    
+    .profile-image-placeholder {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .camera-icon {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    
+    .intro-text::before,
+    .intro-text::after {
+        font-size: 2rem;
+    }
+    
+    .intro-text::before {
+        left: -10px;
+    }
+    
+    .intro-text::after {
+        right: -5px;
+        bottom: -20px;
+    }
+    
+    .education-card {
+        padding: 1.25rem;
+    }
+    
+    .gallery-grid {
+        padding: 1rem;
+        gap: 0.75rem;
+    }
+}
+
+/* Print Styles */
+@media print {
+    body {
+        background: white;
+        color: black;
+    }
+    
+    body::before {
+        display: none;
+    }
+    
+    .glass-card {
+        background: white;
+        border: 1px solid #ccc;
+        box-shadow: none;
+    }
+    
+    .main-title,
+    .section-title,
+    .name-title {
+        color: #333;
+        -webkit-text-fill-color: #333;
+    }
+    
+    .gallery-slot.empty {
+        display: none;
+    }
+}
 /* === Gallery Image Adjustment === */
 .gallery img {
   width: 100%;
